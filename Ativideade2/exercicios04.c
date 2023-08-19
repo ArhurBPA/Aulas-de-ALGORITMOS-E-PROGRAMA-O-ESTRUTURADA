@@ -2,6 +2,8 @@
 
 int main(){
 
+    /*Dado um valor em reais e a cotação do dólar, converta esse valor para dólares.*/
+
     float reais, cotacaoDolar, valorDolar;
 
     printf("Digite o valor em reais");
