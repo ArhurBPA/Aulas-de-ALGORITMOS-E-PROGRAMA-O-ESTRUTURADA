@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/arthurbenevidespa/Documents/Atividade",
-      "program": "/Users/arthurbenevidespa/Documents/Atividade/build/Debug/outDebug"
+      "cwd": "/Users/arthurbenevidespa/Documents/Aulas-de-ALGORITMOS-E-PROGRAMA-O-ESTRUTURADA/Atividade",
+      "program": "/Users/arthurbenevidespa/Documents/Aulas-de-ALGORITMOS-E-PROGRAMA-O-ESTRUTURADA/Atividade/build/Debug/outDebug"
     }
   ]
 }
