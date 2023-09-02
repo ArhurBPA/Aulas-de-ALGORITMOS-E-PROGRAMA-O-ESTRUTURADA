@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<math.h>
 
 int main(){
     int anosDeColaboracao;
@@ -31,13 +30,4 @@ int main(){
         salarioComReajuste = salarioAtual = 500;
         printf("O salario somente com o bonus e:%.2f", salarioComReajuste);
     }
-
-
-
-
-    
-    
-    
-    
-    
 }
