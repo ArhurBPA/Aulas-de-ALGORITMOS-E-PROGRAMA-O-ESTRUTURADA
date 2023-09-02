@@ -18,19 +18,19 @@ int main() {
     int maior = A;
     int menor = A;
     
-    if (B > maior) {
+    if (B > maior){
         maior = B;
     } else if (B < menor) {
         menor = B;
     }
     
-    if (C > maior) {
+    if (C > maior){
         maior = C;
     } else if (C < menor) {
         menor = C;
     }
     
-    if (D > maior) {
+    if (D > maior){
         maior = D;
     } else if (D < menor) {
         menor = D;

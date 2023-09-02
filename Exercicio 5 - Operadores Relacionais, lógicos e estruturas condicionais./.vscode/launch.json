@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/arthurbenevidespa/Documents/Documentos - Arthur’s MacBook Air/Aulas-de-ALGORITMOS-E-PROGRAMA-O-ESTRUTURADA/Exercicio 5 - Operadores Relacionais, lógicos e estruturas condicionais.",
+      "program": "/Users/arthurbenevidespa/Documents/Documentos - Arthur’s MacBook Air/Aulas-de-ALGORITMOS-E-PROGRAMA-O-ESTRUTURADA/Exercicio 5 - Operadores Relacionais, lógicos e estruturas condicionais./build/Debug/outDebug"
+    }
+  ]
+}
