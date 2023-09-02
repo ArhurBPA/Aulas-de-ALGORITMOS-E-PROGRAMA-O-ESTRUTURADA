@@ -5,10 +5,10 @@ int main(){
     float salarioComReajuste, salarioAtual;
 
     printf("Digite o salario atual do funcionario:");
-    scanf("%f", salarioAtual);
+    scanf("%f", &salarioAtual);
 
     printf("Digite o tempo de colaboracao do funcionario:");
-    scanf("%i", anosDeColaboracao);
+    scanf("%i", &anosDeColaboracao);
 
     if (salarioAtual <= 500 && anosDeColaboracao < 1){
         salarioComReajuste = (salarioAtual * (125 / 100));
