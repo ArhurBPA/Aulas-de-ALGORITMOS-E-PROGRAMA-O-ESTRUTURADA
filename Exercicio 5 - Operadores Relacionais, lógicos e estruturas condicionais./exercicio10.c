@@ -29,7 +29,7 @@ int main(){
         resultadoPositivo = (-b+(sqrt(delta)))/(2*a);
         resultadoNegativo = (-b-(sqrt(delta)))/(2*a);
 
-        printf("A raiz negativa e %f e a positiva e %f", resultadoNegativo, resultadoPositivo);
+        printf("A raiz um e %.0f e a dois e %.0f", resultadoNegativo, resultadoPositivo);
 
     }
     
