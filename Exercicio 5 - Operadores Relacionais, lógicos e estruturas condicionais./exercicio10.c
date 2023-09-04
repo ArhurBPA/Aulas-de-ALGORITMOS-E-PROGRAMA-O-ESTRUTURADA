@@ -2,14 +2,16 @@
 #include<math.h>
 
 int main(){
-    int  a = 3, b = 6, c = 3;
+    int  a, b, c;
+
     float delta,resultado, resultadoNegativo, resultadoPositivo;
-    /*printf("Entre com o valor de a:");
+    
+    printf("Entre com o valor de a:");
     scanf("%d", a);
     printf("Entre com o valor de b:");
     scanf("%d", b);
     printf("Entre com o valor de c:");
-    scanf("%d", c);*/
+    scanf("%d", c);
 
     delta = (b * b) - 4*a*c;
 
