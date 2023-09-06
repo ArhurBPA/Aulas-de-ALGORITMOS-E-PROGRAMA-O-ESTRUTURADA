@@ -7,7 +7,7 @@ int main(){
     scanf("%d", &idade);
     printf("Digite quanto tempo de servico voce possue:");
     scanf("%d", &tempoDeServico);
-    //ou  
+    
     if ((idade >= 65) || (tempoDeServico >= 30 ) || ( idade >= 60 && tempoDeServico >= 25)){
         printf("Voce esta apto a se aposentar.");
     }else{
