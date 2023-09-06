@@ -1,7 +1,8 @@
 #include<stdio.h>
 
-int main (){
+int main(){
     int prato, sobremesa, bebida, totalDeCalorias;
+
 
     printf("Escolha o numero do prato:\n1 - vegetariano\n2 – Peixe\n3 – Frango\n4 – Carne\n");
     scanf("%d", &prato);
@@ -15,403 +16,60 @@ int main (){
     switch (prato)
     {
     case 1:
-        switch (sobremesa)
-        {
-        case 1:
-            switch (bebida)
-            {
-            case 1:
-                totalDeCalorias = 180+75+20;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            case 2:
-                totalDeCalorias = 180+75+70;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            case 3:
-                totalDeCalorias = 180+75+100;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            case 4:
-                totalDeCalorias = 180+75+65;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            default:
-                break;
-            }
-            break;
-        case 2:
-            switch (bebida)
-            {
-            case 1:
-                totalDeCalorias = 180+110+20;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            case 2:
-                totalDeCalorias = 180+110+70;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            case 3:
-                totalDeCalorias = 180+110+100;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            case 4:
-                totalDeCalorias = 180+110+65;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            default:
-                break;
-            }
-            break;
-        case 3:
-            switch (bebida)
-            {
-            case 1:
-                totalDeCalorias = 180+170+20;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            case 2:
-                totalDeCalorias = 180+170+70;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            case 3:
-                totalDeCalorias = 180+170+100;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            case 4:
-                totalDeCalorias = 180+170+65;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            default:
-                break;
-            }
-            break;
-        case 4:
-            switch (bebida)
-            {
-            case 1:
-                totalDeCalorias = 180+200+20;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            case 2:
-                totalDeCalorias = 180+200+70;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            case 3:
-                totalDeCalorias = 180+200+100;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            case 4:
-                totalDeCalorias = 180+200+65;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            default:
-                break;
-            }
-            break;
-        default:
-            break;
-        }
+        prato = 180;
         break;
     case 2:
-        switch (sobremesa)
-        {
-        case 1:
-            switch (bebida)
-            {
-            case 1:
-                totalDeCalorias = 230+75+20;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            case 2:
-                totalDeCalorias = 230+75+70;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            case 3:
-                totalDeCalorias = 230+75+100;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            case 4:
-                totalDeCalorias = 230+75+65;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            default:
-                break;
-            }
-            break;
-        case 2:
-            switch (bebida)
-            {
-            case 1:
-                totalDeCalorias = 230+110+20;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            case 2:
-                totalDeCalorias = 230+110+70;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            case 3:
-                totalDeCalorias = 230+110+100;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            case 4:
-                totalDeCalorias = 230+110+65;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            default:
-                break;
-            }
-            break;
-        case 3:
-            switch (bebida)
-            {
-            case 1:
-                totalDeCalorias = 230+170+20;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            case 2:
-                totalDeCalorias = 230+170+70;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            case 3:
-                totalDeCalorias = 230+170+100;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            case 4:
-                totalDeCalorias = 230+170+65;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            default:
-                break;
-            }
-            break;
-        case 4:
-            switch (bebida)
-            {
-            case 1:
-                totalDeCalorias = 230+200+20;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            case 2:
-                totalDeCalorias = 230+200+70;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            case 3:
-                totalDeCalorias = 230+200+100;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            case 4:
-                totalDeCalorias = 230+200+65;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            default:
-                break;
-            }
-            break;
-        default:
-            break;
-        }
+        prato = 230;
         break;
     case 3:
-        switch (sobremesa)
-        {
-        case 1:
-            switch (bebida)
-            {
-            case 1:
-                totalDeCalorias = 250+75+20;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            case 2:
-                totalDeCalorias = 250+75+70;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            case 3:
-                totalDeCalorias = 250+75+100;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            case 4:
-                totalDeCalorias = 250+75+65;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            default:
-                break;
-            }
-            break;
-        case 2:
-            switch (bebida)
-            {
-            case 1:
-                totalDeCalorias = 250+110+20;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            case 2:
-                totalDeCalorias = 250+110+70;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            case 3:
-                totalDeCalorias = 250+110+100;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            case 4:
-                totalDeCalorias = 250+110+65;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            default:
-                break;
-            }
-            break;
-        case 3:
-            switch (bebida)
-            {
-            case 1:
-                totalDeCalorias = 250+170+20;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            case 2:
-                totalDeCalorias = 250+170+70;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            case 3:
-                totalDeCalorias = 250+170+100;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            case 4:
-                totalDeCalorias = 250+170+65;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            default:
-                break;
-            }
-            break;
-        case 4:
-            switch (bebida)
-            {
-            case 1:
-                totalDeCalorias = 250+200+20;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            case 2:
-                totalDeCalorias = 250+200+70;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            case 3:
-                totalDeCalorias = 250+200+100;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            case 4:
-                totalDeCalorias = 250+200+65;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            default:
-                break;
-            }
-            break;
-        
-        default:
-            break;
-        }
+        prato = 250;
         break;
     case 4:
-        switch (sobremesa)
-        {
-        case 1:
-            switch (bebida)
-            {
-            case 1:
-                totalDeCalorias = 350+75+20;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            case 2:
-                totalDeCalorias = 350+75+70;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            case 3:
-                totalDeCalorias = 350+75+100;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            case 4:
-                totalDeCalorias = 350+75+65;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            default:
-                break;
-            }
-            break;
-        case 2:
-            switch (bebida)
-            {
-            case 1:
-                totalDeCalorias = 350+110+20;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            case 2:
-                totalDeCalorias = 350+110+70;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            case 3:
-                totalDeCalorias = 350+110+100;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            case 4:
-                totalDeCalorias = 350+110+65;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            default:
-                break;
-            }
-            break;
-        case 3:
-            switch (bebida)
-            {
-            case 1:
-                totalDeCalorias = 350+170+20;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            case 2:
-                totalDeCalorias = 350+170+70;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            case 3:
-                totalDeCalorias = 350+170+100;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            case 4:
-                totalDeCalorias = 350+170+65;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            default:
-                break;
-            }
-            break;
-        case 4:
-            switch (bebida)
-            {
-            case 1:
-                totalDeCalorias = 350+200+20;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            case 2:
-                totalDeCalorias = 350+200+70;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            case 3:
-                totalDeCalorias = 350+200+100;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            case 4:
-                totalDeCalorias = 350+200+65;
-                printf("O total de caoliras e %dcal\n", totalDeCalorias);
-                break;
-            default:
-                break;
-            }
-            break;
-        default:
-            break;
-        }
+        prato = 350;
         break;
     default:
+        printf("Esse numero nao corresponde a nenhum prato\n");
         break;
     }
+    switch (sobremesa)
+    {
+    case 1:
+        sobremesa = 75;
+        break;
+    case 2:
+        sobremesa = 110;
+        break;
+    case 3:
+        sobremesa = 170;
+        break;
+    case 4:
+        sobremesa = 200;
+        break;
+    default:
+    printf("Esse numero nao corresponde a nenhum sobremesa\n");
+        break;
+    }
+    switch (bebida)
+    {
+    case 1:
+        bebida = 20;
+        break;
+    case 2:
+        bebida = 70;
+        break;
+    case 3:
+        bebida = 100;
+        break;
+    case 4:
+        bebida = 65;
+        break;
+    default:
+    printf("Esse numero nao corresponde a nenhum bebida\n");
+        break;
+    }
+    if (prato > 179 && prato < 351 && sobremesa > 74 && sobremesa < 201 && bebida > 19 && bebida < 99){
+        totalDeCalorias = prato + sobremesa + bebida;
+        printf("O total de calorias da sua refeicao e %dcal\n", totalDeCalorias );
+    }
+    
 }
