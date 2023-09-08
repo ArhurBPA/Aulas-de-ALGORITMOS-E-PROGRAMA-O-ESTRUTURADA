@@ -32,6 +32,6 @@ int main(){
         printf("A raiz um e %.0f e a dois e %.0f", resultadoNegativo, resultadoPositivo);
 
     }
-    
+
     
 }

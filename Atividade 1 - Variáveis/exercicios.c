@@ -49,6 +49,6 @@ int main(){
     printf("Esta no periodo %d" ,periodo);
     printf("Suas diciplinas sao %s" ,disciplinas);
 
-    return 0;
+
 
 }

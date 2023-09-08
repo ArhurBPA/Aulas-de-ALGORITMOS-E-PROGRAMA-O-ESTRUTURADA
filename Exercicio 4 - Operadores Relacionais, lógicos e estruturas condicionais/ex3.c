@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int A, B, C;
-    int ajudante;
+    int A, B, C, ajudante;
 
     printf("Digite o valor de A: ");
     scanf("%d", &A);
@@ -29,5 +28,4 @@ int main() {
     
     printf("Valores em ordem ascendente: %d, %d, %d\n", A, B, C);
 
-    return 0;
 }

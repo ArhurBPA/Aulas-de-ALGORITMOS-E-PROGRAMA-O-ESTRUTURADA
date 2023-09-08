@@ -39,5 +39,5 @@ int main() {
     printf("O maior valor é: %d\n", maior);
     printf("O menor valor é: %d\n", menor);
     
-    return 0;
+
 }

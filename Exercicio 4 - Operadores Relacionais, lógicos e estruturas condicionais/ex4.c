@@ -29,5 +29,5 @@ int main() {
     
     printf("Valores em ordem descendente: %d, %d, %d\n", A, B, C);
 
-    return 0;
+
 }
