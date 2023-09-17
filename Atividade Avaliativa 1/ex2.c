@@ -4,7 +4,7 @@ int main()
 {
     float alturaChico = 1.50, alturaZe = 1.10;
     int anos = 0;
-    //1,50+0,82 e 1,10+1,23
+    
     while (alturaChico > alturaZe)
     {
         alturaChico += 0.02;
