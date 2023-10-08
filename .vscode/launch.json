@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/arthurbenevidespa/Documents/Documentos - Arthur’s MacBook Air/Aulas-de-ALGORITMOS-E-PROGRAMA-O-ESTRUTURADA",
-      "program": "/Users/arthurbenevidespa/Documents/Documentos - Arthur’s MacBook Air/Aulas-de-ALGORITMOS-E-PROGRAMA-O-ESTRUTURADA/build/Debug/outDebug"
+      "cwd": ".",
+      "program": "build/Debug/outDebug"
     }
   ]
 }

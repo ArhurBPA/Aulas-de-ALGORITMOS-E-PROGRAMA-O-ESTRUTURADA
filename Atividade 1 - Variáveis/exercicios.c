@@ -48,7 +48,4 @@ int main(){
     printf("O curso que voce esta fazendo %s\n" ,curso);
     printf("Esta no periodo %d" ,periodo);
     printf("Suas diciplinas sao %s" ,disciplinas);
-
-
-
 }
