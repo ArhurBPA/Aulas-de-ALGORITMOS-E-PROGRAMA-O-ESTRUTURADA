@@ -1,0 +1,10 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     "/Users/arthurbenevidespa/Documents/Documentos - Arthur’s MacBook Air/Aulas-de-ALGORITMOS-E-PROGRAMA-O-ESTRUTURADA/struct/output/ex01"
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _validarQuantidade, symObjAddr: 0x0, symBinAddr: 0x100003C5C, symSize: 0x9C }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _validarQuantidade, symObjAddr: 0x0, symBinAddr: 0x100003C5C, symSize: 0x9C }
+  - { offsetInCU: 0x69, offset: 0x69, size: 0x8, addend: 0x0, symName: _calculaSalario, symObjAddr: 0x9C, symBinAddr: 0x100003CF8, symSize: 0xB0 }
+  - { offsetInCU: 0xBB, offset: 0xBB, size: 0x8, addend: 0x0, symName: _mostraFinal, symObjAddr: 0x14C, symBinAddr: 0x100003DA8, symSize: 0x44 }
+  - { offsetInCU: 0xED, offset: 0xED, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x190, symBinAddr: 0x100003DEC, symSize: 0xD0 }
+...

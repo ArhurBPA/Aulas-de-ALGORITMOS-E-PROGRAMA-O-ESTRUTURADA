@@ -1,0 +1,9 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     "/Users/arthurbenevidespa/Documents/Documentos - Arthur’s MacBook Air/Aulas-de-ALGORITMOS-E-PROGRAMA-O-ESTRUTURADA/struct/output/cadastro1"
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _cadastrar, symObjAddr: 0x0, symBinAddr: 0x100003B44, symSize: 0x118 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _cadastrar, symObjAddr: 0x0, symBinAddr: 0x100003B44, symSize: 0x118 }
+  - { offsetInCU: 0x73, offset: 0x73, size: 0x8, addend: 0x0, symName: _imprimir, symObjAddr: 0x118, symBinAddr: 0x100003C5C, symSize: 0xE4 }
+  - { offsetInCU: 0xC1, offset: 0xC1, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x1FC, symBinAddr: 0x100003D40, symSize: 0x13C }
+...
